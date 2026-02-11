@@ -1,0 +1,46 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/26/266/505/legion-holk-pacman-sdlg-wallpaper-preview.jpg);
+}
+
+ol {
+    color: white;
+  animation: parpadeo 1.5s infinite alternate;
+    
+}
+@keyframes parpadeo {
+  0%, 100% {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073;
+  }
+  50% {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6;
+  }
+}
+h1{
+    text-align: center;
+     color: white;
+  animation: parpadeo 1.5s infinite alternate;
+}
+p{
+  font-size: large;
+  text-align: center;
+  font-size: large;
+   color: white;
+  animation: parpadeo 1.5s infinite alternate;
+}
+a{
+  color: white;
+  animation: parpadeo 1.5s infinite alternate;  
+}
+a:visited{
+  color: red;
+}
+div{
+  text-align: center;
+  font-size: xx-large;
+}
